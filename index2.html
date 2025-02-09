@@ -9,19 +9,21 @@
 </head>
 <body>
     <!-- NAVBAR-->
-     <div id="navbar" style="margin-top: 10px;">
-        <div id="div1">
-            <a class="nav-item" href="https://github.com/barkinyurukcu" title="Google Hesabı"><img class="profile-round" src="https://lh3.googleusercontent.com/ogw/AF2bZyh2U5q9FHVLFA4vRkim-ftjDBx7RBWnezYuCYyhmEpaV4Q=s32-c-mo"></a>
-         </div>
-         <div id="div2">
-            <a class="nav-item" href="https://about.google/products/" title="Google Uygulamaları"><img class="ico-roundbg" src="srcs/al-icon.png"></a>
-         </div>
-        <div id="div3">
-            <a class="nav-link nav-item" href="https://mail.google.com/">Gmail</a>
-            <a class="nav-link nav-item" href="https://www.google.com/imghp">Görseller</a>
-        </div>
-        <div id="clear"></div>
-    </div>
+     <nav>
+      <div id="navbar" style="margin-top: 10px;">
+          <div id="div1">
+              <a class="nav-item" href="https://github.com/barkinyurukcu" title="Google Hesabı"><img class="profile-round" src="https://lh3.googleusercontent.com/ogw/AF2bZyh2U5q9FHVLFA4vRkim-ftjDBx7RBWnezYuCYyhmEpaV4Q=s32-c-mo"></a>
+          </div>
+          <div id="div2">
+              <a class="nav-item" href="https://about.google/products/" title="Google Uygulamaları"><img class="ico-roundbg" src="srcs/al-icon.png"></a>
+          </div>
+          <div id="div3">
+              <a class="nav-link nav-item" href="https://mail.google.com/">Gmail</a>
+              <a class="nav-link nav-item" href="https://www.google.com/imghp">Görseller</a>
+          </div>
+          <div id="clear"></div>
+      </div>
+   </nav>
     <!-- MAIN SEARCH WIH LOGO-->
       <div id="searchbar">  
         <!-- Logo --> 
@@ -45,11 +47,11 @@
             </span>
         </div>
         <!-- Keyboard Icon -->
-        <img id="keyboard-icon" src="srcs/tia.png" alt="Klavye">
+        <img id="keyboard-icon" src="srcs/tia.png" alt="Klavye" title="Harf Çevirme Aracı">
         <!-- Microphone Icon -->
-        <img id="microphone-icon" src="srcs/voicelogo.png" alt="Mikrofon">
+        <img id="microphone-icon" src="srcs/voicelogo.png" alt="Mikrofon" title="Sesle Arama Yapın">
         <!-- Lens Icon -->
-        <img id="lens-icon" src="srcs/lens.png" alt="Lens">
+        <img id="lens-icon" src="srcs/lens.png" alt="Lens" title="Görselle Arama">
         <!-- Search Buttons -->
         <div id="search-buttons">
             <button id="search-button">Google'da Ara</button>
@@ -57,6 +59,31 @@
         </div>
       </div>
     <!-- Footer-->
-     
+     <footer>
+      <!-- Top Footer with invisible country name-->
+      <div id="footer-country">
+        <span style="padding-left: 20px;">Türkiye</span>
+      </div>
+      <!-- Bottom Footer with links-->
+      <div id="footerbar">
+        <!-- Left side of footer -->
+        <div id="footer-left">
+          <a class="footer-link" href="https://about.google/">Hakkında</a>
+          <a class="footer-link" href="https://ads.google.com">Reklam</a>
+          <a class="footer-link" href="https://smallbusiness.withgoogle.com">İşletme</a>
+          <a class="footer-link" href="https://www.google.com/search/howsearchworks/">Arama nasıl çalışır?</a>
+        </div>
+        <!-- Center of footer -->
+        <div id="footer-center">
+          <img style="width: 13px;" src="srcs/leaf.png" alt="Yaprak"><a class="footer-link" href="https://sustainability.google/">&nbsp;&nbsp;İklimle ilgili çalışmalarımızın üçüncü on yılı</a>
+        </div>
+        <!-- Right side of footer -->
+        <div id="footer-right">
+          <a class="footer-link" href="https://policies.google.com/privacy">Gizlilik</a>
+          <a class="footer-link" href="https://policies.google.com/terms">Şartlar</a>
+          <a class="footer-link" href="#">Ayarlar</a>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
